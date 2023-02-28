@@ -8,5 +8,7 @@ int main( void )
   char* p = new char[100];
   strcpy(p, "AAA");
 
+  delete [] p;
+
   return 0;
 }
