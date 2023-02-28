@@ -4,6 +4,8 @@ on:
   pull_request_review_comment:
     types: [created, edited]
 
+permissions: read-all|write-all
+
 jobs:
   codeball_job:
     runs-on: ubuntu-latest
