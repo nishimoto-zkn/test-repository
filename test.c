@@ -7,5 +7,7 @@ int main( void )
   char* p = (char*)malloc( sizeof(char) * 100 );
   strcpy(p, "AAA");
 
+  free(p);
+
   return 0;
 }
